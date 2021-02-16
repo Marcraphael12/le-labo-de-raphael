@@ -1,0 +1,161 @@
+/*                        partie a propos
+*******************************************************************/
+
+#apropos /***section a propos***/
+{
+/*dimensions*/
+    border: none;
+    background-repeat: no-repeat;
+    background-size: auto;
+    height: 100%;
+    width: 95%;
+/*paramettres du texte*/
+    color: white;
+
+/*arriere plan*/
+    background-color: #2B2B2B;
+}
+
+.toutlecontenu/***tout le contenu***/
+{
+/*dimensions*/
+    border: none;
+    width: 100%;
+/*positionnement*/
+    position: relative;
+
+/*paramettres du texte*/
+    color: white;
+}
+
+.profilepic/*profile pic*/
+{
+/*dimensions*/
+    border: none;
+    border-radius: 100px;
+    width: fit-content;
+
+/*positiionnement*/
+    position: relative;
+    float: left;
+    padding: 0;
+    margin-top: 68px;
+    margin-left: 190px;
+}
+.profilepic img
+{
+
+    padding-top: 2px;
+    width: 200px;
+    border-radius: 100px;
+}
+
+.aproposdemoi
+{
+    border: none;
+    position: relative;
+    width: 60%;
+    height: 90%;
+    margin-left: 40%;
+    padding: 20px 20px 20px 20px;
+
+}
+
+
+.about
+{
+    border: none;
+    width: 600px;
+    position: relative;
+    height: fit-content;
+    margin-left: 0%;
+    margin-top: 50px;
+    text-align: justify;
+    font-family: cursive;
+    color: rgb(128, 123, 123);
+}
+.about h2{ color: white; margin-left: 0px; text-decoration: none; }
+
+.informations/*informations*/
+{
+/*dimensions*/
+    border:none;
+    width: 400px;
+
+/*paramettres du texte*/
+
+/*positionnement*/
+    position: relative;
+    margin-top:40px ;
+}
+
+.adresse/*adresse*/
+{
+/*dimensions*/
+    width: fit-content;
+    border:none;
+/*paramettres du texte*/
+    color: white;
+    text-decoration: none;
+    font-family: cursive;
+    font-weight: bold;
+    font-size: large;
+/*positionnement*/
+    position: relative;
+    margin-left: 0px;
+
+
+}
+
+.coordonnées
+{
+    width: fit-content;
+    border:none;
+    position: relative;
+    font-family: cursive;
+    color:rgb(128, 123, 123);
+}
+
+.localisation/*localisation*/
+{
+    /*dimensions*/
+        border: none;
+    /*texte*/
+        font: inherit;
+    /*positionnement*/
+        position: relative;
+}
+
+/********************************** Partie join me et social ********************************/
+.joinme
+{
+/*dimensions*/
+    border: none;
+    width: fit-content;
+/*paramettres du texte*/
+    color: white;
+    text-decoration: none;
+    font-family: cursive;
+    font-weight: bold;
+    font-size: large;
+    /*positionnement*/
+    position: relative;
+    left: 38.5%;
+
+}
+.social
+{
+    border:none;
+    display: inline-block;
+    /*paramettres du texte*/
+    color:rgb(128, 123, 123);
+    text-decoration: none;
+    font-family: cursive;
+    font-weight: bold;
+    font-size: large; 
+    margin: 0px 0px 0px 0px;
+    padding: 0 0 0 0;
+}
+a{border: none; color: inherit; font-size: medium; font-variant: inherit; text-decoration:none;}
+a:hover{color:rgb(255, 255, 255);}
+.joinme li{display: inline-block; padding: 0 40px 0 40px; list-style-type: none; border:none;}
