@@ -18,7 +18,7 @@ body
 #nom
 {
     border: solid 1px red;
-    font-size: 100px;
+    font-size: 150px;
     text-align: center;
 
 }
@@ -26,5 +26,21 @@ body
 {
     border: solid 1px yellow;
     text-align: center;
+    font-size: 40px;
+    color: rgb(31, 168, 150);
     
+}
+#description span
+{
+    color: rgb(38, 219, 114);
+    font-weight: bolder;
+}
+#li
+{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    border: solid 1px black;
+    position:fixed;
+    z-index: 1;
 }
