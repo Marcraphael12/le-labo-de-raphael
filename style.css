@@ -1,7 +1,30 @@
 body
 {
-    width: 100%;
+    
     background-color: rgba(5, 5, 5, 0.911);
     color: white;
+    background-image: url(images/bodybb.jpg);
+    background-repeat: no-repeat;
+    font-family: cursive;
+
+}
+#self-intro
+{
+    border: solid 1px blue;
+    height: 100%vh;
+    position: relative;
+    align-content: center;
+}
+#nom
+{
+    border: solid 1px red;
+    font-size: 100px;
+    text-align: center;
+
+}
+#description
+{
+    border: solid 1px yellow;
+    text-align: center;
     
 }
