@@ -6,6 +6,7 @@ body
     background-image: url(images/bodybb.jpg);
     background-repeat: no-repeat;
     font-family: cursive;
+    background-position: cover;
 
 }
 #self-intro
@@ -57,4 +58,8 @@ button
     border: solid 1px white;
     border-radius: 7px;
     font-family: cursive;
+
+}
+button:hover {
+  background-color: rgb(6, 151, 30);
 }
