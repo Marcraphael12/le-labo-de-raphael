@@ -51,22 +51,16 @@ nav
 
 #li
 {
-    padding-left: 0px;
-    display: inline-flex;
-    flex-wrap: wrap;
-    flex-direction: ;
     list-style-type: none;
-    border: none;
-    position:sticky;
-    z-index: 1;
-    margin-left: 23%;
+    border:1px solid red;
+    display: flex;
+    justify-content: flex-end;
 
 }
 
 button
 {
     display: block;
-    margin-left: 50px;
     padding:5px 10px 5px 10px;
     text-decoration: none;
     background-color:rgba(0, 0, 0, 0.438);
