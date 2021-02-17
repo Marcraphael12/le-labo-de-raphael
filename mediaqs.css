@@ -5,6 +5,15 @@
       width: 100%;
       height: auto;
       position: relative;
+      display: block;
+      left:0;
+      padding: left 0;
+    }
+    nav
+    {
+      position:sticky;
+      top:0;
+      z-index: 1;
     }
 }
 
