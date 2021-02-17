@@ -11,21 +11,21 @@ body
 }
 #self-intro
 {
-    border: solid 1px blue;
+    border: none;
     height: 100%vh;
     position: relative;
     align-content: center;
 }
 #nom
 {
-    border: solid 1px red;
+    border: none;
     font-size: 150px;
     text-align: center;
 
 }
 #description
 {
-    border: solid 1px yellow;
+    border: none;
     text-align: center;
     font-size: 40px;
     color: rgb(31, 168, 150);
@@ -42,7 +42,7 @@ body
     display: inline-flex;
     list-style-type: none;
     border: none;
-    position:fixed;
+    position:sticky;
     z-index: 1;
     margin-left: 23%;
 
