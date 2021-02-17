@@ -53,6 +53,8 @@ nav
 {
     padding-left: 0px;
     display: inline-flex;
+    flex-wrap: wrap;
+    flex-direction: ;
     list-style-type: none;
     border: none;
     position:sticky;
