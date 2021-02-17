@@ -14,7 +14,6 @@ nav
     border: 1px solid blue;
     position: sticky;
     top:0;
-    background-color: rgb(0, 0, 0);
     z-index: 1;
 }
 
@@ -66,22 +65,23 @@ nav
     border:1px solid red;
     display: flex;
     justify-content: flex-end;
-
+    padding-right: 50px;
+    align-content: space-between;
 }
 
 button
 {
     display: block;
-    padding:5px 10px 5px 10px;
     text-decoration: none;
-    background-color:rgba(0, 0, 0, 0.438);
-    color:white;
+    color:inherit;
     border: solid 1px white;
-    border-radius: 7px;
     font-family: cursive;
+    margin-left: 10px;
+    
 
 }
 
-button:hover {
-  background-color: rgb(6, 151, 30);
+a:hover {
+  color: rgb(6, 151, 30);
+  border-bottom: 1px solid white ;
 }
