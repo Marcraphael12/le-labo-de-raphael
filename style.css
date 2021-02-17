@@ -12,7 +12,7 @@ body
 nav
 {
     border: 1px solid blue;
-    position:sticky;
+    position: sticky;
     top:0;
     background-color: rgb(0, 0, 0);
     z-index: 1;
@@ -20,8 +20,10 @@ nav
 
 #self-intro
 {
-    border: none;
-    height: 100%vh;
+    border: 1px solid red;
+    height: 550px;
+    min-height: 300px;
+    max-height: 100vh;
     position: relative;
     align-content: center;
 }
@@ -29,23 +31,32 @@ nav
 #nom
 {
     border: none;
-    font-size: 150px;
+    font-size: larger;
     text-align: center;
-
+}
+#nom1
+{
+    border: 1px solid rgb(255, 255, 255);
+}
+#nom2
+{
+    border:1px solid rgb(255, 255, 255);
 }
 
 #description
 {
     border: none;
     text-align: center;
-    font-size: 40px;
-    color: rgb(31, 168, 150);
+    font-size:small;
+    color: rgb(219, 219, 219);
+    position: relative;
+    top:0;
     
 }
 
 #description span
 {
-    color: rgb(38, 219, 114);
+    color: rgb(255, 255, 255);
     font-weight: bolder;
 }
 
