@@ -37,10 +37,24 @@ body
 }
 #li
 {
+    padding-left: 0px;
+    display: inline-flex;
     list-style-type: none;
-    margin: 0;
-    padding: 0;
-    border: solid 1px black;
+    border: none;
     position:fixed;
     z-index: 1;
+    margin-left: 23%;
+
+}
+button
+{
+    display: block;
+    margin-left: 50px;
+    padding:5px 10px 5px 10px;
+    text-decoration: none;
+    background-color:rgba(0, 0, 0, 0.438);
+    color:white;
+    border: solid 1px white;
+    border-radius: 7px;
+    font-family: cursive;
 }
