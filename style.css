@@ -19,12 +19,14 @@ nav
 
 #self-intro
 {
-    border: 1px solid red;
+    border: solid 1px yellow;
     height: 550px;
     min-height: 300px;
     max-height: 100vh;
     position: relative;
     align-content: center;
+    padding:;
+
 }
 
 #nom
@@ -44,12 +46,13 @@ nav
 
 #description
 {
-    border: none;
+    border: 1px solid black;
     text-align: center;
     font-size:small;
     color: rgb(219, 219, 219);
     position: relative;
     top:0;
+    padding:auto;
     
 }
 
@@ -62,21 +65,20 @@ nav
 #li
 {
     list-style-type: none;
-    border:1px solid red;
+    border:none;
     display: flex;
     justify-content: flex-end;
-    padding-right: 50px;
     align-content: space-between;
 }
 
-button
+.bouttons
 {
     display: block;
+    padding:5px 10px 5px 10px;
     text-decoration: none;
     color:inherit;
-    border: solid 1px white;
     font-family: cursive;
-    margin-left: 10px;
+    margin-left: 10px
     
 
 }
