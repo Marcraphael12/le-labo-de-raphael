@@ -20,11 +20,12 @@ nav
 #self-intro
 {
     border: solid 1px yellow;
-    height: 550px;
+    height: 500px;
     min-height: 300px;
     max-height: 100vh;
     position: relative;
     align-content: center;
+    overflow:auto;
 }
 
 #nom
@@ -36,21 +37,27 @@ nav
 #nom1
 {
     border: 1px solid rgb(255, 255, 255);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: large;
 }
 #nom2
 {
     border:1px solid rgb(255, 255, 255);
+    font-weight:3px;
 }
 
 #description
 {
     border: 1px solid black;
-    text-align: center;
-    font-size:small;
+    text-align: justify;
+
+    font-size:larger;
     color: rgb(219, 219, 219);
     position: relative;
     top:0;
     padding:auto;
+    width:60%;
+    border-left: 2px solid white;
     
 }
 
