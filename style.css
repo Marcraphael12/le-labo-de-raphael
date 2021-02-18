@@ -35,32 +35,36 @@ nav
     font-size: 120px;
     text-align: center;
     width:fit-content;
-    margin:50px 0 0 20%;
+    margin:200px 0 0 23%;
     padding:auto;
+    font-weight:initial;
 }
 #nom1
 {
     border: none;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
 }
 #nom2
 {
     border:none;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-weight:3px;
     margin-left: 5px;
+    border-left: solid 1px white;
+    font-weight: 1px;
 }
 
 #description
 {
     border: none;
     text-align: center;
-    font-size:;
+    font-size:medium;
+    font-family:'Courier New', Courier, monospace;
     color: rgb(219, 219, 219);
     position: relative;
     top:0;
     padding:auto;
-    width:60%;
+    width:63%;
     margin-left: 20%;
 }
 
