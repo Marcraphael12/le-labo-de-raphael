@@ -1,21 +1,26 @@
 body
 {
-    background-color: rgb(131, 131, 131);
+    background-color: rgb(255, 255, 255);
     font-family: cursive ;
-    color: rgb(216, 216, 216);
+    color: rgb(255, 240, 240);
     font-size: x-large;
 
 }
+
 section
 {
-    width: initial;
+    width: 90%;
     text-align: center;
     align-content: flex-end;
     background-repeat: no-repeat;
     background-size: cover;
+    max-height: 100vh;
+    margin-left: auto;
+    margin-right: auto;
+    
 }
-#logocreator
 
+#logocreator
 {
     
     border:none;
@@ -23,7 +28,9 @@ section
     background-image: url(images/image.png);
     height: 700px;
     color: rgb(1, 159, 187);
+    margin-bottom: 10px;
 }
+
 #webdesigning
 {
     background-image: url(images/pexels-kaboompics-com-6444.jpg);
@@ -31,32 +38,37 @@ section
     border:none;
     background-color: orange;
     color: rgba(214, 214, 214, 0.918);
-    
+    margin-bottom: 10px;
     height: 700px;
 }
+
 #webdesigning div
 {
     height: fit-content;
     padding-top: 20%
 }
+
 #devicesrepair
 {
-    
+    margin-bottom: 10px;
     border:none;
     background-color: rgb(0, 24, 90);
     
     height: 700px;
 }
+
 .images
 {
     width: 200px;
     border-radius: 100px;
 }
+
 span
 {
     color: white;
     font-weight: bold;
 }
+
 .division
 {
     display: -blox;
