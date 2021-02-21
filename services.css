@@ -20,18 +20,18 @@ section
     background-color:none;
     margin-left: auto;
     margin-right: auto;
-    border:rgb(255, 145, 0) 2px solid;
+    border:rgb(255, 145, 0) 1px solid;
     margin-top: 30px;
     display: flex;
-    box-shadow:2px 2px 10px rgb(0, 81, 255);
+    box-shadow:1px 1px 10px rgb(0, 81, 255);
 }
 .logos
 {
     width: 200px;
     height: 200PX;
-    border:1px solid rgb(255, 145, 0) ;
+    border:none;
     border-radius:50%;
-    box-shadow:2px 2px 10px rgb(0, 89, 255);
+    box-shadow:2px 2px 10px rgb(0, 81, 255);
     margin-top: 10px;
     margin-left: 10px;
     position: relative;
@@ -47,10 +47,10 @@ img
 }
 .division
 {
-    background-color: rgb(255, 255, 255);
+    background-color: none;
     color: rgb(255, 157, 10);
     border:none;
-    box-shadow:3px 3px 10px #000000;
+    box-shadow:1px 1px 10px rgb(0, 81, 255);
     text-align:justify;
     height:max-content;
     font-size: large;
