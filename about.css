@@ -5,15 +5,18 @@
 {
 /*dimensions*/
     border: none;
-    background-repeat: no-repeat;
-    background-size: auto;
     height: 100%;
     width: 95%;
 /*paramettres du texte*/
     color: white;
 
 /*arriere plan*/
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
     background-color: #2B2B2B;
+    background-image: url(images/darkwaves.jpg);
+
 }
 
 .toutlecontenu/***tout le contenu***/
@@ -72,8 +75,9 @@
     margin-top: 50px;
     text-align: justify;
     font-family: cursive;
-    color: rgb(128, 123, 123);
+    color:rgb(183, 0, 255);
 }
+.about:hover{color:rgb(255, 174, 0);}
 .about h2{ color: white; margin-left: 0px; text-decoration: none; }
 
 .informations/*informations*/
@@ -113,8 +117,9 @@
     border:none;
     position: relative;
     font-family: cursive;
-    color:rgb(128, 123, 123);
+    color:rgb(183, 0, 255);
 }
+.coordonnées:hover{color:rgb(255, 174, 0);}
 
 .localisation/*localisation*/
 {
@@ -133,14 +138,12 @@
     border: none;
     width: fit-content;
 /*paramettres du texte*/
-    color: white;
-    text-decoration: none;
     font-family: cursive;
     font-weight: bold;
     font-size: large;
     /*positionnement*/
     position: relative;
-    left: 38.5%;
+    left: 40%;
 
 }
 .social
@@ -148,7 +151,7 @@
     border:none;
     display: inline-block;
     /*paramettres du texte*/
-    color:rgb(128, 123, 123);
+    color:rgb(183, 0, 255);
     text-decoration: none;
     font-family: cursive;
     font-weight: bold;
@@ -156,6 +159,6 @@
     margin: 0px 0px 0px 0px;
     padding: 0 0 0 0;
 }
-a{border: none; color: inherit; font-size: medium; font-variant: inherit; text-decoration:none;}
-a:hover{color:rgb(255, 255, 255);}
-.joinme li{display: inline-block; padding: 0 40px 0 40px; list-style-type: none; border:none;}
+a{border: none; font-size: medium; color:rgb(183, 0, 255); font-variant: inherit; text-decoration:none;}
+a:hover{color:rgb(255, 174, 0); border-bottom: 1px solid rgb(255, 174, 0);}
+.joinme li{display: inline-block; padding: 0 20px 0 20px; list-style-type: none; border:none;}
