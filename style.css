@@ -95,14 +95,9 @@ nav
     text-decoration: none;
     color:inherit;
     font-family: cursive;
-    margin-left: 10px
-    
-
+    margin-left: 10px;
+    color: white;
 }
-
-a:hover 
-{
-  border-bottom: 1px solid white ;
-  z-index: 1;
-}
+a{color:white; text-decoration: none;}
+a:hover {color: rgb(255, 174, 0);}
 hr{width:500px; color: rgb(13, 198, 255);}
