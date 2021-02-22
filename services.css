@@ -14,7 +14,7 @@ section
     width: 90%;
     min-height:min-content;
     height:100vh;
-    max-height: max-content;
+    max-height: fit-content;
     text-align: center;
     background-repeat: no-repeat;
     background-color:none;
@@ -22,8 +22,10 @@ section
     margin-right: auto;
     border:none;
     margin-top: 30px;
-    display: flex;
+    display:flex;
+    flex-wrap: wrap;
     box-shadow:0px 0px 10px rgb(0, 151, 252);
+    overflow:auto;
 }
 .logos
 {
@@ -70,3 +72,55 @@ img
 }
 span{color: blueviolet;}
 hr{width:90%;}
+
+/*logo creator illustration*/
+.ilc
+{
+    box-shadow:0 0 10px rgb(0, 151, 252);
+    margin:auto;
+    border-radius: 50%;
+    min-width: 200px;
+    min-height:200px;
+    position: relative;
+    align-content:center;
+    display: inline-block;
+}
+
+
+/*web development illustration*/
+.iwd
+{
+    box-shadow:0 0 10px rgb(0, 151, 252);
+    margin:auto;
+    border-radius: 50%;
+    width: 350px;
+    height:350px;
+    position: relative;
+    align-content:center;
+    display: inline-block;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    padding: auto;
+}
+
+#iwd1
+{
+    
+    font-size: smaller;
+    text-align:justify;
+}
+
+/*devices repaire illustration*/
+.idr
+{
+    box-shadow:0 0 10px rgb(0, 151, 252);
+    margin:auto;
+    border-radius: 50%;
+    min-width: 200px;
+    min-height:200px;
+    position: relative;
+    align-content:center;
+    display: inline-block;
+
+}
