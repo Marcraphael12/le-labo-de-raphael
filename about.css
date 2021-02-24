@@ -1,3 +1,30 @@
+/*medias queries*/
+@media screen and (max-width: 700px)
+{
+    .toutlecontenu
+    {
+        width:max-content;
+    }
+    .toutlecontenu .profilepic img
+    {
+        width: 150px;
+        height: 200px;
+        float: right;
+        display:flex;
+    }
+    .toutlecontenu .aproposdemoi
+    {
+        width: fit-content;
+        font-size: medium;
+        height:fit-content;
+    }
+    .toutlecontenu .aproposdemoi .about
+    {
+        width: 300px;
+        font-size:small;
+
+    }
+}
 /*                        partie a propos
 *******************************************************************/
 
@@ -5,8 +32,6 @@
 {
 /*dimensions*/
     border: none;
-    height: 100%;
-    width: 95%;
 /*paramettres du texte*/
     color: white;
 
@@ -22,8 +47,8 @@
 .toutlecontenu/***tout le contenu***/
 {
 /*dimensions*/
-    border: none;
-    width: 100%;
+    border: 1px solid blue;
+    width: 90%;
 /*positionnement*/
     position: relative;
 
@@ -34,9 +59,10 @@
 .profilepic/*profile pic*/
 {
 /*dimensions*/
-    border: none;
+    border: solid 1px yellow;
     border-radius: 100px;
     width: fit-content;
+    height:fit-content;
 
 /*positiionnement*/
     position: relative;
@@ -55,9 +81,9 @@
 
 .aproposdemoi
 {
-    border: none;
+    border: solid 1px red;
     position: relative;
-    width: 60%;
+    width: fit-content;
     height: 90%;
     margin-left: 40%;
     padding: 20px 20px 20px 20px;
@@ -67,7 +93,7 @@
 
 .about
 {
-    border: none;
+    border: solid 1px blue;
     width: 600px;
     position: relative;
     height: fit-content;
@@ -83,7 +109,7 @@
 .informations/*informations*/
 {
 /*dimensions*/
-    border:none;
+    border:solid 1px blueviolet;
     width: 400px;
 
 /*paramettres du texte*/
@@ -97,7 +123,7 @@
 {
 /*dimensions*/
     width: fit-content;
-    border:none;
+    border:solid 1px orangered;
 /*paramettres du texte*/
     color: white;
     text-decoration: none;
@@ -114,7 +140,7 @@
 .coordonnées
 {
     width: fit-content;
-    border:none;
+    border:solid 1px orange;
     position: relative;
     font-family: cursive;
     color:rgb(183, 0, 255);
@@ -124,7 +150,7 @@
 .localisation/*localisation*/
 {
     /*dimensions*/
-        border: none;
+        border: solid 1px green;
     /*texte*/
         font: inherit;
     /*positionnement*/
@@ -135,7 +161,7 @@
 .joinme
 {
 /*dimensions*/
-    border: none;
+    border: solid 1px white;
     width: fit-content;
 /*paramettres du texte*/
     font-family: cursive;
