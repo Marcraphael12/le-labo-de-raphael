@@ -1,7 +1,63 @@
+@media screen and (max-width: 700px) 
+{    
+    body 
+    {
+        background-size: contain;
+    }
+    nav
+    {
+      top:0;
+      z-index: 1;
+      display: flex;
+      width:fit-content;
+      border: solid 1px blue;
+      justify-content: center;
+    }
+    #li
+    {
+      height: auto;
+      position: relative;
+      left:0;
+      padding: left 0;
+      font-size: x-small;
+      width: max-content;
+    }
+    #li button a 
+    {
+      text-align: center;
+      float: none;
+    }
+
+    #self-intro #description
+    {
+        font-family: cursive;
+        font-size: small;
+        width: 350px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #self-intro #nom
+    {
+        font-size: 80px;
+    }
+    #self-intro hr{width:50%;}
+
+}
+
+@media screen and (max-width: 400px) 
+{
+    #li button a 
+    {
+      text-align: center;
+      float: none;
+    }
+}
+
+
 body
 {
     
-    background-color: rgba(5, 5, 5, 0.911);
+    background-color: rgb(0, 0, 0);
     color: white;
     background-image: url(images/darksky.jpg);
     background-repeat: no-repeat;
@@ -16,6 +72,8 @@ nav
     width: 100%;
     border: none;
     z-index: 1;
+    height:fit-content;
+    width: 95%;
 }
 
 #self-intro
@@ -26,7 +84,7 @@ nav
     max-height: 100vh;
     position: relative;
     align-content: center;
-    overflow:auto;
+    overflow:none;
 }
 
 #nom
@@ -55,7 +113,7 @@ nav
     border-left: solid 1px white;
     font-weight: 1px;
     color: rgb(248, 114, 4);
-    font-size: 100px;
+
 }
 
 #description
@@ -81,11 +139,12 @@ nav
 #li
 {
     list-style-type: none;
-    border:none;
+    border: none;
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
     align-content: space-between;
-    margin-right: 35%;
+    margin:auto;
+    position: relative;
 }
 
 .bouttons
