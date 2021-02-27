@@ -1,2 +1,6 @@
 /* Partie DOM */
-var titre = "petit essais"
+function myFunction() 
+{
+    var x = document.getElementById("demo");
+    x.style.color = "red";
+}
