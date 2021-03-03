@@ -1,38 +1,242 @@
+@media screen and (max-width:1080px)
+{
+    body
+    {
+        font-size:small;
+    }
+
+    nav ul .bouttons {margin-left: 20px;}
+    nav #lid .bouttons{margin-right: 0px;}
+
+
+
+    section .division
+    {
+        font-size: 14px;
+        width: 70%; 
+        margin-bottom: 30px;
+        margin-left: auto;
+        margin-right: auto;
+        height:fit-content;
+        border: none;
+        text-align: center;
+    } 
+
+
+    section #iwd5{display:none;}
+    section #ilc5{display:none;}
+    section #idr5{display:none;}
+
+    section .division .titre{margin-right:50%; width: max-content;}
+
+}
+
+@media screen and (max-width:800px)
+{
+    body
+    {
+        font-size:small;
+    }
+
+    nav ul .bouttons {margin-left: 0px;}
+    nav #lid .bouttons{margin-right: 0px;}
+
+
+
+    section .division
+    {
+        font-size: 12px;
+        width: 50%; 
+        margin-bottom: 30px;
+        margin-left: auto;
+        margin-right: auto;
+        height:fit-content;
+        border: none;
+        text-align: center;
+    } 
+
+
+    section #iwd5{display:none;}
+    section #ilc5{display:none;}
+    section #idr5{display:none;}
+
+    section .division .titre{margin-right:60%; width: max-content;}
+
+}
+
+@media screen and (max-width:700px)
+{
+    body
+    {
+        font-size:small;
+    }
+
+    nav{justify-content: center; padding: auto;}
+    nav #li{margin-right: 15%;}
+
+    nav #lid{display:none;}
+
+    section .logos{display:none;}
+
+    section .division
+    {
+        font-size: 14px;
+        width: 100%; 
+        margin-bottom: 30px;
+        margin-left: auto;
+        margin-right: auto;
+        height:fit-content;
+        border: none;
+        text-align: center;
+    } 
+
+
+    section #iwd5{display:none;}
+    section #ilc5{display:none;}
+    section #idr5{display:none;}
+
+    section .division .titre{margin-right:50%; width: max-content;}
+
+}
+
+@media screen and (max-width:600px)
+{
+    body
+    {
+        font-size:x-small;
+    }
+
+    nav{justify-content: center; padding: auto;}
+    nav #li{margin-right: 15%; font-size: 12px; width:fit-content;}
+
+    nav #lid{display:none;}
+
+    section .logos{display:none;}
+
+    section .division
+    {
+        font-size: 12px;
+        width: 100%; 
+        margin-bottom: 30px;
+        margin-left: auto;
+        margin-right: auto;
+        height:fit-content;
+        border: none;
+        text-align: center;
+    } 
+
+
+    section #iwd5{display:none;}
+    section #ilc5{display:none;}
+    section #idr5{display:none;}
+
+    section .division .titre{margin-right:50%; width: max-content;}
+
+}
+
+
+
 body
 {
-    background-color: rgba(0, 102, 255, 0.822);
+    background-color:rgba(255, 255, 255, 0.493);
     font-family: cursive ;
     color: rgb(6, 21, 224);
-    background-image: url(images/cosmos.jpg);
     background-repeat:no-repeat;
     background-size: cover;
     background-attachment:fixed;
 }
+
+nav/*debut style pour les liens*/
+{
+
+    position: sticky;
+    top: 0;
+    width: 100%;
+    border: none;
+    background-color:rgba(255, 255, 255);
+    z-index: 1;
+    height:50px;
+    margin: auto;
+    padding-right: 0px;
+    margin-bottom: 0px;
+    overflow:hidden;
+    box-shadow:0px 0px 10px rgb(0,0,0);
+}
+.bouttons
+{
+    display: block;
+    padding:5px 10px 5px 10px;
+    text-decoration: none;
+    color:inherit;
+    font-family: cursive;
+    margin-left:30px;
+    color: white;
+}
+a{color:rgb(0, 151, 252); text-decoration: none;}
+a:hover {color: rgb(255, 174, 0);}
+
+#lid
+{
+    list-style-type: none;
+    border: none;
+    display: flex;
+    justify-content:center;
+    align-content: space-between;
+    position: relative;
+    float: left;
+    border: none;
+    margin:auto;
+    padding-left:0px;
+}
+#lid li
+{    
+    border: none;
+    margin-left: 0px;
+    margin-right: 30px
+}
+
+#li
+{
+    list-style-type: none;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-content: space-between;
+    margin: auto;
+    margin-right:0px;
+    position: relative;
+    float: right;
+
+}/*fin style pour les liens*/
+
 
 section
 {
     width: 90%;
     min-height:min-content;
     height:100vh;
-    max-height: fit-content;
+    max-height: max-content;
     text-align: center;
     background-repeat: no-repeat;
-    background-color:none;
+    background-color:white;
     margin-left: auto;
     margin-right: auto;
     border:none;
-    margin-top: 30px;
+    margin-bottom:40px;
+    margin-top:50px;
     display:flex;
     flex-wrap: wrap;
-    box-shadow:0px 0px 10px rgb(0, 151, 252);
+    box-shadow:0px 0px 10px rgb(0,0,0);
     overflow:auto;
 }
+
+
 .logos
 {
     width: 200px;
     height: 200PX;
-    border:none;
-    border-radius:50%;
+    border-top: solid 3px  rgb(0, 151, 252);
+    border-left:solid 3px  rgb(0, 151, 252);
     margin-top: 10px;
     margin-left: 10px;
     position: relative;
@@ -50,7 +254,8 @@ img
 {
     background-color: none;
     color: rgb(255, 157, 10);
-    border:none;
+    border-right:solid 3px  rgb(0, 151, 252);
+    border-bottom:solid 3px  rgb(0, 151, 252);
     text-align:justify;
     height:max-content;
     font-size: large;
@@ -71,7 +276,8 @@ img
     padding-left: 40%;
 }
 span{color: blueviolet;}
-hr{width:90%;}
+
+.sectionsdivisor{width:90%; background-color: inherit; height:1px; border:none; margin:auto;}
 
 /*logo creator illustration*/
 .ilc
@@ -93,34 +299,23 @@ hr{width:90%;}
     box-shadow:0 0 10px rgb(0, 151, 252);
     margin:auto;
     border-radius: 50%;
-    width: 350px;
-    height:350px;
+    min-width: 200px;
+    min-height:200px;
     position: relative;
     align-content:center;
     display: inline-block;
-    overflow: hidden;
-    display: flex;
-    justify-content: center;
-    padding: auto;
 }
 
-#iwd1
-{
-    
-    font-size: smaller;
-    text-align:justify;
-}
 
 /*devices repaire illustration*/
 .idr
 {
-    box-shadow:0 0 10px rgb(0, 151, 252);
+  box-shadow:0 0 10px rgb(0, 151, 252);
     margin:auto;
     border-radius: 50%;
     min-width: 200px;
     min-height:200px;
     position: relative;
     align-content:center;
-    display: inline-block;
-
+    display: inline-block;  
 }
