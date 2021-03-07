@@ -2,7 +2,9 @@
 {    
     body 
     {
-        background-size: contain;
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
     }
     nav
     {
@@ -46,6 +48,12 @@
 
 @media screen and (max-width: 400px) 
 {
+    body 
+    {
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+    }
     #li button a 
     {
       text-align: center;
@@ -59,35 +67,63 @@ body
     
     background-color: rgb(0, 0, 0);
     color: white;
-    background-image: url(images/darksky.jpg);
+    background-image: url(images/darkwaves.jpg);
     background-repeat: no-repeat;
     font-family: cursive;
     background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
 
 }
-nav
+
+nav/*navigation bar style starts here*/
 {
-    position: fixed;
+    position: static;
     bottom: 0;
     width: 100%;
     border: none;
     z-index: 1;
     height:fit-content;
     width: 95%;
+    margin: auto;
+
 }
 
-#self-intro
+#li
+{
+    list-style-type: none;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-content: space-between;
+    margin:auto;
+    position: static;
+    margin: auto;
+}
+
+.bouttons
+{
+    display: block;
+    padding:5px 10px 5px 10px;
+    text-decoration: none;
+    color:inherit;
+    font-family: cursive;
+    margin-left: 10px;
+    color: white;
+}
+a{color:white; text-decoration: none;}
+a:hover {color: rgb(255, 174, 0);}/*navigation bar style ends here*/
+
+#self-intro/*self-intro style starts here*/
 {
     border: none;
-    height: 500px;
-    min-height: 300px;
-    max-height: 100vh;
+    height: inherit;
     position: relative;
     align-content: center;
     overflow:none;
 }
 
-#nom
+#nom/*name solar lights style*/
 {
     border:none;
     font-size: 120px;
@@ -110,9 +146,9 @@ nav
     border:none;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     margin-left: 5px;
-    border-left: solid 1px white;
+    border-left: solid 10px white;
     font-weight: 1px;
-    color: rgb(248, 114, 4);
+    color: rgb(255, 157, 0);
 
 }
 
@@ -136,27 +172,4 @@ nav
     font-weight: bolder;
 }
 
-#li
-{
-    list-style-type: none;
-    border: none;
-    display: flex;
-    justify-content: center;
-    align-content: space-between;
-    margin:auto;
-    position: relative;
-}
-
-.bouttons
-{
-    display: block;
-    padding:5px 10px 5px 10px;
-    text-decoration: none;
-    color:inherit;
-    font-family: cursive;
-    margin-left: 10px;
-    color: white;
-}
-a{color:white; text-decoration: none;}
-a:hover {color: rgb(255, 174, 0);}
 hr{width:500px; color: rgb(13, 198, 255);}

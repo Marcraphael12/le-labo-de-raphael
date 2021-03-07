@@ -1,4 +1,4 @@
-@media screen and (max-width:1080px)
+@media screen and (max-width:1300px)
 {
     body
     {
@@ -8,26 +8,65 @@
     nav ul .bouttons {margin-left: 20px;}
     nav #lid .bouttons{margin-right: 0px;}
 
-
-
-    section .division
+    section .description
     {
-        font-size: 14px;
+        font-size: 17px;
         width: 70%; 
         margin-bottom: 30px;
         margin-left: auto;
         margin-right: auto;
-        height:fit-content;
-        border: none;
         text-align: center;
     } 
 
+    section .description .titre{margin-right:50%; width: max-content;}
 
-    section #iwd5{display:none;}
-    section #ilc5{display:none;}
-    section #idr5{display:none;}
+}
 
-    section .division .titre{margin-right:50%; width: max-content;}
+@media screen and (max-width:1100px)
+{
+    body
+    {
+        font-size:small;
+    }
+
+    nav ul .bouttons {margin-left: 20px;}
+    nav #lid .bouttons{margin-right: 0px;}
+
+    section .description
+    {
+        font-size: 17px;
+        width: 73%; 
+        margin-bottom: 30px;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    } 
+
+    section .description .titre{margin-right:50%; width: max-content;}
+
+}
+
+@media screen and (max-width:950px)
+{
+    body
+    {
+        font-size:small;
+    }
+
+    nav ul .bouttons {margin-left: 20px;}
+    nav #lid .bouttons{margin-right: 0px;}
+
+    section .description
+    {
+        font-size: 14px;
+        width: 60%; 
+        margin-bottom: 30px;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    } 
+
+    section .description .titre{margin-right:50%; width: max-content;}
 
 }
 
@@ -40,12 +79,10 @@
 
     nav ul .bouttons {margin-left: 0px;}
     nav #lid .bouttons{margin-right: 0px;}
-
-
-
-    section .division
+    section .logos{border:none;}
+    section .description
     {
-        font-size: 12px;
+        font-size: 10px;
         width: 50%; 
         margin-bottom: 30px;
         margin-left: auto;
@@ -56,11 +93,8 @@
     } 
 
 
-    section #iwd5{display:none;}
-    section #ilc5{display:none;}
-    section #idr5{display:none;}
 
-    section .division .titre{margin-right:60%; width: max-content;}
+    section .description .titre{margin-right:60%; width: max-content;}
 
 }
 
@@ -78,7 +112,7 @@
 
     section .logos{display:none;}
 
-    section .division
+    section .description
     {
         font-size: 14px;
         width: 100%; 
@@ -90,13 +124,11 @@
         text-align: center;
     } 
 
-
     section #iwd5{display:none;}
     section #ilc5{display:none;}
     section #idr5{display:none;}
 
-    section .division .titre{margin-right:50%; width: max-content;}
-
+    section .description .titre{margin-right:50%; width: max-content;}
 }
 
 @media screen and (max-width:600px)
@@ -113,7 +145,7 @@
 
     section .logos{display:none;}
 
-    section .division
+    section .description
     {
         font-size: 12px;
         width: 100%; 
@@ -125,20 +157,18 @@
         text-align: center;
     } 
 
-
     section #iwd5{display:none;}
     section #ilc5{display:none;}
     section #idr5{display:none;}
 
-    section .division .titre{margin-right:50%; width: max-content;}
-
+    section .description .titre{margin-right:50%; width: max-content;}
 }
 
-
-
-body
+/*Main style of page starts here*/
+body /*body part*/
 {
-    background-color:rgba(255, 255, 255, 0.493);
+    background-color:rgb(255, 255, 255);
+    background-image:url(images/ordinateurr.jpg);
     font-family: cursive ;
     color: rgb(6, 21, 224);
     background-repeat:no-repeat;
@@ -146,14 +176,14 @@ body
     background-attachment:fixed;
 }
 
-nav/*debut style pour les liens*/
+nav/*navigation bar style*/
 {
 
     position: sticky;
     top: 0;
     width: 100%;
     border: none;
-    background-color:rgba(255, 255, 255);
+    background-color:rgba(0, 0, 0, 0.911);
     z-index: 1;
     height:50px;
     margin: auto;
@@ -162,7 +192,8 @@ nav/*debut style pour les liens*/
     overflow:hidden;
     box-shadow:0px 0px 10px rgb(0,0,0);
 }
-.bouttons
+
+.bouttons/*buttons on nav bar*/
 {
     display: block;
     padding:5px 10px 5px 10px;
@@ -172,10 +203,18 @@ nav/*debut style pour les liens*/
     margin-left:30px;
     color: white;
 }
-a{color:rgb(0, 151, 252); text-decoration: none;}
-a:hover {color: rgb(255, 174, 0);}
 
-#lid
+a/*links style*/
+{
+    color:rgb(0, 151, 252); text-decoration: none;
+}
+
+a:hover/*links hover*/
+{
+    color: rgb(255, 174, 0);
+}
+
+#lid/*links into this page*/
 {
     list-style-type: none;
     border: none;
@@ -188,14 +227,15 @@ a:hover {color: rgb(255, 174, 0);}
     margin:auto;
     padding-left:0px;
 }
-#lid li
+
+#lid li/*links into this page*/
 {    
     border: none;
     margin-left: 0px;
     margin-right: 30px
 }
 
-#li
+#li/*links for all the site*/
 {
     list-style-type: none;
     border: none;
@@ -207,10 +247,9 @@ a:hover {color: rgb(255, 174, 0);}
     position: relative;
     float: right;
 
-}/*fin style pour les liens*/
+}
 
-
-section
+section/*style for all sections*/
 {
     width: 90%;
     min-height:min-content;
@@ -218,11 +257,11 @@ section
     max-height: max-content;
     text-align: center;
     background-repeat: no-repeat;
-    background-color:white;
+    background-color:rgba(0, 0, 0, 0.548);
     margin-left: auto;
     margin-right: auto;
     border:none;
-    margin-bottom:40px;
+    border-radius:10px;
     margin-top:50px;
     display:flex;
     flex-wrap: wrap;
@@ -230,8 +269,7 @@ section
     overflow:auto;
 }
 
-
-.logos
+.logos/*style for all logos*/
 {
     width: 200px;
     height: 200PX;
@@ -241,16 +279,18 @@ section
     margin-left: 10px;
     position: relative;
     overflow: hidden;
-    background-color:white;
+    background-color:none;
 }
-img
+
+img/*style for all logo image*/
 {
-    width: 150px;;
+    width: 150px;
     height: 110px;
     padding-top: 50px;
     position:static;
 }
-.division
+
+.description/*style for all the sections descriptions*/
 {
     background-color: none;
     color: rgb(255, 157, 10);
@@ -269,53 +309,95 @@ img
     font-family:'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif;
     font-weight:bold ;
 }
-.titre
+
+.titre/*title on descriptions*/
 {
-    color: rgba(10, 145, 255, 0.911);
+    color: rgb(0, 151, 252);
     text-decoration: underline;
     padding-left: 40%;
 }
-span{color: blueviolet;}
 
-.sectionsdivisor{width:90%; background-color: inherit; height:1px; border:none; margin:auto;}
+span/*all span style*/
+{
+    color: blueviolet;
+}
 
-/*logo creator illustration*/
-.ilc
+.sectionsdivisor/*style for the section divisors*/
+{
+    width:90%; height:1px; margin:auto;
+}
+
+.ilc/*logo creator illustration*/
 {
     box-shadow:0 0 10px rgb(0, 151, 252);
     margin:auto;
-    border-radius: 50%;
-    min-width: 200px;
-    min-height:200px;
+    border-radius: 10%;
+    width: 200px;
+    height:195px;
     position: relative;
     align-content:center;
     display: inline-block;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:center;
 }
+#ilc1{background-image:url(images/darksky.jpg);}
+#ilc2{background-image:url(images/bodybb.jpg);}
+#ilc3{background-image:url(images/clearsky.jpg);}
+#ilc4{background-image:url(images/mountainpic.jpg);}
+#ilc5{background-image:url(images/rockbeach.jpg);}
 
-
-/*web development illustration*/
-.iwd
+.iwd/*web development illustration*/
 {
     box-shadow:0 0 10px rgb(0, 151, 252);
     margin:auto;
-    border-radius: 50%;
-    min-width: 200px;
-    min-height:200px;
+    border-radius: 10%;
+    width: 200px;
+    height:195px;
     position: relative;
     align-content:center;
     display: inline-block;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:center;
 }
+#iwd1{background-image:url(images/ordinateur.jpg);}
+#iwd2{background-image:url(images/mqueriespic.jpg);}
+#iwd3{background-image:url(images/htmlcodeinver.jpg);}
+#iwd4{background-image:url(images/codelines.jpg);}
+#iwd5{background-image:url(images/htmlcode.jpg);}
 
-
-/*devices repaire illustration*/
-.idr
+.idr/*devices repaire illustration*/
 {
-  box-shadow:0 0 10px rgb(0, 151, 252);
+    box-shadow:0 0 10px rgb(0, 151, 252);
     margin:auto;
-    border-radius: 50%;
-    min-width: 200px;
-    min-height:200px;
+    border-radius: 10%;
+    width: 200px;
+    height:195px;
     position: relative;
     align-content:center;
-    display: inline-block;  
+    display: inline-block;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:center; 
+}
+#idr1{background-image:url(images/lunnettes.jpg);}
+#idr2{background-image:url(images/aurore.jpg);}
+#idr3{background-image:url(images/rockbeach.jpg);}
+#idr4{background-image:url(images/pencilonhandboard.jpg);}
+#idr5{background-image:url(images/pagerose.png);}
+
+.txtOnIll
+{
+    border-radius: inherit;
+    font-size: 10px;
+    text-align:center;
+    color: rgb(255, 255, 255);
+    background-color: rgba(0, 0, 0, 0.493);
+    height: 195px;
+    width:50%;
+    margin: auto;
+    float:right;
+    position:static;
+    
 }
