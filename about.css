@@ -1,2 +1,8 @@
-.aboutthefounder img{width: 300px; height: 350px; border-radius: 50%;}
-.icones{width: 40px; height: 20px;}
+body
+{
+    background-image: url(illustrations/Under\ construction-bro.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
