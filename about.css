@@ -6,3 +6,20 @@ body
     background-attachment: fixed;
     background-position: center;
 }
+
+/** each section style starts here**/
+#head_section
+{
+    height:100vh;
+    width:100%;
+    background-image:url(illustrations/Aboutuspage-cuate.png);
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+}
+#nav
+{
+    display:flex;
+    font-size: xx-small;
+}
+#li
