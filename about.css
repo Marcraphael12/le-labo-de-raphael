@@ -24,6 +24,7 @@ body
     width: 100%;
     border:solid 1px red;
     height:fit-content;
+    background-color:none;
 }
 #li 
 {
@@ -32,21 +33,24 @@ body
     padding: 0;
     overflow: hidden;
     background-color:none;
+    margin:auto;
+    justify-content: space-between;
+
 }
   
 #li li {
-    float: left;
+    float: right;
   }
   
 #li li a {
     display: block;
-    color: rgb(0, 132, 255);
+    color: rgb(0, 0, 0);
     text-align: center;
-    padding: 14px 16px;
+    padding: 0px 10px;
     text-decoration: none;
   }
   
   /* Change the link color to #111 (black) on hover */
 #li li a:hover {
-    background-color: #111;
+    border-bottom:2px solid orange;
   }
