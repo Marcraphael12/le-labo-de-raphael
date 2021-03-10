@@ -19,7 +19,34 @@ body
 }
 #nav
 {
-    display:flex;
-    font-size: xx-small;
+
+    font-size: x-small;
+    width: 100%;
+    border:solid 1px red;
+    height:fit-content;
 }
-#li
+#li 
+{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:none;
+}
+  
+#li li {
+    float: left;
+  }
+  
+#li li a {
+    display: block;
+    color: rgb(0, 132, 255);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+#li li a:hover {
+    background-color: #111;
+  }
