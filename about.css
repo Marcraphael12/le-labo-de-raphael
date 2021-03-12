@@ -8,7 +8,7 @@ body
 }
 
 /** each section style starts here**/
-#head_section
+#head_section/*beginning of head_section*/
 {
     height:100vh;
     width:100%;
@@ -20,7 +20,8 @@ body
 #nav
 {
 
-    font-size: x-small;
+    font-size: small;
+    font-weight:bolder;
     width: 100%;
     border:solid 1px red;
     height:fit-content;
@@ -29,28 +30,36 @@ body
 #li 
 {
     list-style-type: none;
-    margin: 0;
-    padding: 0;
     overflow: hidden;
     background-color:none;
-    margin:auto;
-    justify-content: space-between;
-
+    width: inherit;
+    border: solid 1px blue;
+    padding-left: 0;
+    position:static;
 }
   
 #li li {
     float: right;
+    margin-right:30px;
   }
   
-#li li a {
+#li li a 
+{
     display: block;
     color: rgb(0, 0, 0);
     text-align: center;
-    padding: 0px 10px;
     text-decoration: none;
-  }
-  
-  /* Change the link color to #111 (black) on hover */
-#li li a:hover {
-    border-bottom:2px solid orange;
-  }
+}
+ 
+#li li a:hover {border-bottom:2px solid orange;} /* end of head_section */
+
+#story_section
+{
+    border:1px solid green;
+}
+#story_section h1
+{
+    font-size: large;
+    background-color: blue;
+
+}
